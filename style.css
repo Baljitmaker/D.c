@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+html {
+    font-size: 62.5%;
+}
+
+@media (max-width: 1800px){
+
+    html {
+        font-size: 55%;
+    }
+
+}
+
+@media (max-width: 1500px){
+
+    html {
+        font-size: 50%;
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+
+    html {
+        font-size: 40%;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    html {
+        font-size: 35%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    html {
+        font-size: 30%;
+    }
+
+}
+
+@media (max-width: 300px) {
+
+    html {
+        font-size: 25%;
+    }
+
+}
+
+
+/*------title------*/
+
+#title {
+    background-color: black;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 5%;
+}
+
+.heading {
+    text-align: center;
+}
+
+.head {
+    font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+.btn-k {
+    margin-top: 6rem;
+    border-radius: 4rem;
+    padding: 1.5rem 5.5rem;
+    font-size: 2rem;
+    border: 1 px black solid;
+}
+
+.btn-k:hover {
+    color: white;
+    background-color: darkgrey;
+}
+
+
+.navbar {
+    padding-bottom: 5rem;
+}
+
+.nav-link {
+    margin: 1rem 2rem;
+    font-size: 1.5rem;
+}
+
+.navbar-brand {
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.pic-1 {
+    height: 50rem;
+    width: 50vw;
+    background-color: black;
+}
+
+/*-----sale-----*/
+
+
+.pic-2, .pic-3, .pic-4 {
+    height: 50rem;
+    width: 50vw;
+    border-radius: 2rem;
+    
+}
+
+
+#sale {
+    background-color: silver;
+}
+
+.sale {
+    padding: 5%;
+    line-height: 2;
+    text-align: center;
+}
+
+p {
+    color: gray;
+    line-height: 2;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+
+h2{
+    font-size: 4rem;
+    font-family: bold;
+    padding-bottom: 4rem;
+    color: black;
+}
+
+h1 {
+    padding-bottom: 5%;
+    font-size: 4.5rem;
+    color: silver;
+}
+
+#show {
+    text-align: center;
+    background-color: black;
+    padding: 5%;
+}
+
+/*-----installments-----*/
+
+
+#installments {
+    text-align: center;
+    padding: 5rem;
+}
+
+.insta{
+    padding: 4rem;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-header {
+    color: black;
+}
+
+.card {
+    background-color: darkgray;
+    border-radius: 2rem;
+    border: 0.2rem solid black;
+}
+
+p {
+    color: black;
+    font-size: 2rem;
+}
+
+.btn {
+    border-radius: 2rem;
+    font-size: 2rem;
+}
+
+.kard {
+    padding: 4rem 4rem;
+}
+
+/*-----footer------*/
+
+
+#footer {
+    text-align: center;
+    padding: 5%;
+    background-color: lightgray;
+}
+
+.bottom-container{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.last {
+    font-size: 4rem;
+}
+
+.social-media {
+    padding: 5rem;
+}
+
+
+.fab-1 {
+    color: #4267b2;
+    cursor: pointer;
+}
+
+.fab-1:hover {
+    color: rgb(126, 144, 197);
+}
+
+.fab-2 {
+    color: #171515;
+    margin: auto 3rem;
+    cursor: pointer;
+}
+
+.fab-2:hover {
+    color: darkgrey;
+}
+
+.fab-3 {
+    color: rosybrown;
+    cursor: pointer;
+}
+
+.fab-3:hover {
+    color: lightcoral;
+}
